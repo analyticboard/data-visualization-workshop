@@ -70,4 +70,4 @@ svg.selectAll("text")
   .attr("y", function(d) {
     return h - (d * 10)+14;
   })
-  .classed("textBar",true);
+  .attr("class","textBar");

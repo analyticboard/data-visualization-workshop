@@ -44,10 +44,34 @@ Selectors
 
 Anonymous function
 
-**Exercise 3 My first barchart**
+**Exercise 3 My first Barchart**
+
 SelectAll empty rect
+
 Y starts in the top of the page h-d
+
 Padding to separate bars
+
 Create and position rects
+
 Create and position text
-Classed
+
+Class attribute
+
+**Exercise 4 My awesome Barchart**
+
+Apples vs pixels - every apple needs a pixel
+
+Domain and ranges - Normalization
+
+g Group Elements
+
+Margins
+
+Transform - Translate
+
+Call Axis
+
+Create Scales and Axis
+
+Change x,y,widht,heigh for xScale and yScale

@@ -1,16 +1,16 @@
 //Width and height
 var w = 600;
-var h = 250;
+var h = 300;
 
-var dataset = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
+var data = [ 5, 10, 13, 19, 21, 25, 22, 18, 15, 13,
   11, 12, 15, 20, 18, 17, 16, 18, 23, 25];
 var margin = {top: 20, right: 20, bottom: 30, left: 40};
 var xScale = d3.scale.ordinal()
-  .domain(d3.range(dataset.length))
+  .domain(d3.range(data.length))
   .rangeRoundBands([0, w], 0.05);
 
 var yScale = d3.scale.linear()
-  .domain([0,d3.max(dataset)])
+  .domain([0,d3.max(data)])
   .range([h,0]);
 
 //Create SVG element
@@ -30,7 +30,7 @@ var yAxis = d3.svg.axis()
   .orient("left");
 //Create bars
 svg.selectAll("rect")
-  .data(dataset)
+  .data(data)
   .enter()
   .append("rect")
   .attr("x", function(d, i) {
@@ -44,7 +44,7 @@ svg.selectAll("rect")
     return h-yScale(d);
   })
   .attr("fill", function(d) {
-    return "rgb(0, 0, " + ((d3.max(dataset)-d) * 20+10) + ")";
+    return "rgb(0, 0, " + ((d3.max(data)-d) * 20+10) + ")";
   })
   .on("mouseover", function(d) {
 
