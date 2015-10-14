@@ -20,6 +20,10 @@ var yScale = d3.scale.linear()
   .domain([0,d3.max(data)])
   .range([h,0]);
 
+var colorScale=d3.scale.linear()
+  .domain([0,d3.max(data)])
+  .rangeRound([255,80]);
+
 var xAxis = d3.svg.axis()
   .scale(xScale)
   .orient("bottom");
@@ -33,7 +37,7 @@ svg.selectAll("rect")
   .enter()
   .append("rect")
   .attr("fill", function(d) {
-    return "rgb(0, 0, " + (h-d * 10) + ")";
+    return "rgb(0, 0, " + (colorScale(d)) + ")";
   }) //.attr("fill", "blue")
   .attr("x", function(d,i){
     return xScale(i);

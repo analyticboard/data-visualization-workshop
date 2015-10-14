@@ -75,3 +75,21 @@ Call Axis
 Create Scales and Axis
 
 Change x,y,widht,heigh for xScale and yScale
+
+Color Scale 0 - 255
+
+**Exercise 5 My interactive awesome Barchart**
+
+CSS3 Transitions
+
+Update Data
+
+Update Text
+
+Update Scales
+
+Update Axes
+
+Sort Bars
+
+Sort Text
