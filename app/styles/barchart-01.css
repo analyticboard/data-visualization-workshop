@@ -1,0 +1,11 @@
+.hoverCircle:hover{
+  fill:blue;
+}
+rect:hover{
+  fill:yellow;
+}
+.crazyText:hover{
+  font-family: sans-serif;
+  fill:red;
+  font-style: italic;
+}

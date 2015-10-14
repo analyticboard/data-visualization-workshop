@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>data visualization workshop</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/barchart-01.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <svg width="600" height="600">
+      <rect x="0" y="0" width="28" height="120" fill="rgba(0, 0, 255,0.5)"></rect>
+      <rect x="250" y="130" width="28" height="120" fill="rgb(0, 0, 255)"></rect>
+      <circle cx="250" cy="150" r="25" fill="red" stroke="black" stroke-width="5px" class="hoverCircle"/>
+      <circle cx="350" cy="60" r="25" fill="red" stroke="black" stroke-width="5px"/>
+      <line x1="50" y1="100" x2="500" y2="100" stroke="black"/>
+      <text x="350" y="25" font-family="serif" font-size="25"
+            fill="green" class="crazyText">Some text</text>
+    </svg>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/d3/d3.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/barchart.js -->
+    <script src="scripts/barchart-01.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
