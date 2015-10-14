@@ -26,16 +26,28 @@ https://github.com/mbostock/d3/releases/download/v3.5.6/d3.zip
 
 `<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>`
 
-Exercise 1 SVG
+**Exercise 1 SVG**
 
 Create rect, line, circle, text
 
 Classes, styles, hover
 
+Zoom
+
 Overlapping (There is no z-index, it depends on the render order)
 
-Exercise 3 My first barchart
+**Exercise 2 Handling Data**
+
 Chaining
+
 Selectors
+
 Anonymous function
 
+**Exercise 3 My first barchart**
+SelectAll empty rect
+Y starts in the top of the page h-d
+Padding to separate bars
+Create and position rects
+Create and position text
+Classed
