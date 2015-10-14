@@ -38,7 +38,7 @@ var data = {
 };
 var w=600;
 var h=300;
-var svg = d3.select("body")
+var svg = d3.select("#graphChart")
   .append("svg")
   .attr("width", w)
   .attr("height", h);

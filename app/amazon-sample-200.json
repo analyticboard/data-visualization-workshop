@@ -1,5 +1,3 @@
-
-
 {
   "nodes": [{"Id": 0, "ASIN":  "0827229534", "name": " Discontinued", "reviews":  0, "downloaded": 0, "avg-rating":  0},
     {"Id": 1, "ASIN":  "0827229534", "name": " Patterns of Preaching: A Sermon Sampler", "reviews":  2, "downloaded": 2, "avg-rating":  5},{"Id": 2, "ASIN":  "0738700797", "name": " Candlemas: Feast of Flames", "reviews":  12, "downloaded": 12, "avg-rating":  4.5
@@ -202,7 +200,7 @@
     },{"Id": 199, "ASIN":  "0671562711", "name": " My Life with the Chimpanzees", "reviews":  8, "downloaded": 8, "avg-rating":  4.5
     },{"Id": 200, "ASIN":  "0873376129", "name": " U.S. Immigration Made Easy (8th Edition)", "reviews":  9, "downloaded": 9, "avg-rating":  4}
   ],
-  "links": [
+  "edges": [
 
     {"source":0,"target":1,"value":1},
 

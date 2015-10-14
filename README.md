@@ -93,3 +93,19 @@ Update Axes
 Sort Bars
 
 Sort Text
+
+**Exercise 6 My first network graph**
+
+**Exercise 7 My crazy network graph**
+
+Load JSON
+
+Add class to line and node to differentiate
+
+Test linkDistance and charge
+
+Adding color
+
+Adding size to nodes
+
+Adding tooltip

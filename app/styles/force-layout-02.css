@@ -1,0 +1,9 @@
+.d3-tip { /*Step 3*/
+  line-height: 1;
+  color: black;
+  background: #ffffff;
+  border: 1px solid;
+  padding: 1px;
+  max-width: 300px;
+  font-family: sans-serif;
+}

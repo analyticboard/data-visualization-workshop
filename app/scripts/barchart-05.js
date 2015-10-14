@@ -50,11 +50,11 @@ svg.selectAll("rect")
   .attr("height", function(d){
     return h-yScale(d);
   })
-  .on("mouseover", function(d) {
+  .on("mouseover", function(d) {//Step 2
     d3.select(this)
       .attr("fill", "rgb("+ (colorScale(d)) + ",0,0 )");
   })
-  .on("mouseout", function(d) {
+  .on("mouseout", function(d) {//Step 2
     d3.select(this)
       .transition()
       .duration(250)
@@ -86,7 +86,7 @@ svg.append("g")
   .attr("transform", "translate(0," + h + ")")
   .call(xAxis);
 
-var updateData=function(){
+var updateData=function(){ //Step 1
   console.log("clickUpdate");
   var dataLength = data.length;
   data = [];
@@ -134,7 +134,7 @@ var updateData=function(){
     });
 };
 
-var sortBars = function() {
+var sortBars = function() {//Step 3
 
   var sortFunction;
   if(sortOrder==='asc'){
