@@ -46,8 +46,8 @@ var svg = d3.select("#graphChart")
 var force = d3.layout.force()
   .nodes(data.nodes)
   .links(data.edges)
-  .linkDistance([50])
-  .charge([-100])
+  .linkDistance([50]) //Step 2
+  .charge([-100]) //Step 2
   .size([w, h])
   .start();
 

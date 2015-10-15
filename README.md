@@ -146,6 +146,8 @@ Color Advise for Maps http://colorbrewer2.org/
 
 Vega.js https://vega.github.io/
 
+Vega.js Slides and example http://analyticboard.github.io/medellinjs-vegajs
+
 NvD3 http://nvd3.org/
 
 C3 http://c3js.org/
