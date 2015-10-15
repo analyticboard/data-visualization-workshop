@@ -1,4 +1,4 @@
-# data-visualization-workshop
+# Data Visualization Workshop JSConf
 
 First Step
 
@@ -96,6 +96,8 @@ Sort Text
 
 **Exercise 6 My first network graph**
 
+Tick = Frames
+
 **Exercise 7 My crazy network graph**
 
 Load JSON
@@ -109,3 +111,39 @@ Adding color
 Adding size to nodes
 
 Adding tooltip
+
+**Interesting Resources**
+
+**Data Cleaning**
+
+Open Refine http://openrefine.org/
+
+Data Wrangler http://vis.stanford.edu/wrangler/
+
+**Data Repositories**
+
+Re3Data http://www.re3data.org/
+
+Machine Learning Repository http://archive.ics.uci.edu/ml/
+
+20 Free Big Data Resources http://www.datasciencecentral.com/profiles/blogs/20-free-big-data-sources-everyone-should-check-out
+
+Standford Network Data Collection http://snap.stanford.edu/data/index.html
+
+UCI Network Data Repository https://networkdata.ics.uci.edu/index.php
+
+**Color Picking**
+
+Color Wheel https://color.adobe.com/
+
+Paletton http://paletton.com/
+
+Color Advise for Maps http://colorbrewer2.org/
+
+**Reusable Charts**
+
+Vega.js https://vega.github.io/
+
+NvD3 http://nvd3.org/
+
+C3 http://c3js.org/
