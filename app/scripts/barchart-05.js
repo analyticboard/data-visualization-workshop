@@ -153,7 +153,9 @@ var sortBars = function() {//Step 3
     .sort(function(a, b) {
       return sortFunction(a,b);
     })
+    .attr("pointer-events","none")//Step 4
     .transition()
+    .each("end",function(){d3.select(this).attr("pointer-events",null);}) //Step 4
     .duration(1000)
     .attr("x", function(d, i) {
       return xScale(i);
